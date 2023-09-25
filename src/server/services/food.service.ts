@@ -11,8 +11,7 @@ class FoodService {
     //Filter the menu items by category
     const filteredData = allFood.filter((item: any) => item.category === category);
     return filteredData;
-
- }
+  }
 }
 
 export default new FoodService();

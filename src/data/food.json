@@ -1,6 +1,6 @@
 [
     {
-        "category": "appetizers",
+        "category": "Appetizers",
         "items": [
             {
                 "id": 1,
@@ -38,7 +38,7 @@
         ]
     },
     {
-        "category": "entrees",
+        "category": "Entrees",
         "items": [
           {
             "id": 1,
@@ -69,7 +69,7 @@
         ]
       },
       {
-        "category": "sandwiches",
+        "category": "Sandwiches",
         "type": "HOT",
         "items": [
           {
@@ -111,7 +111,7 @@
         ]
       },
       {
-        "category": "sandwiches",
+        "category": "Sandwiches",
         "type": "COLD",
         "Description": "Served with choice of house pasta salad, green salad, or fresh fruit. For an additional $1.50, you can “upgrade” (by substituting) to ½ pasta salad of the day, French onion soup or soup of the day.",
         "items": [
@@ -167,7 +167,7 @@
         ]
     },
     {
-        "category": "soup & salad Combos",
+        "category": "Soup & salad Combos",
         "items": [
           {
             "name": "French Onion or Soup of the Day",
@@ -188,7 +188,7 @@
       },
   
       {
-        "category": "fajitas",
+        "category": "Fajitas",
         "items": [
           {
             "name": "Chicken Fajitas",
@@ -204,7 +204,7 @@
       },
   
       {
-        "category": "tacos",
+        "category": "Tacos",
         "items": [
           {
             "name": "Beer Battered Fish Tacos",
@@ -230,7 +230,7 @@
       },
   
       {
-        "category": "enchiladas",
+        "category": "Enchiladas",
         "items": [
           {
             "name": "Beef Enchiladas",
@@ -284,7 +284,7 @@
       },
   
       {
-        "category": "green Salads",
+        "category": "Green Salads",
         "items": [
           {
             "name": "Grilled Red Trout Salad",
