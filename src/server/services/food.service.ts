@@ -3,11 +3,16 @@ import FoodRepository from "../repositories/food.repository";
 
 class FoodService {
   getAllFood() {
-    console.log(2);
     return FoodRepository.getAllFood();
   }
 
-  // Add more service methods as needed
+ filterFoodByCategory(category: string) {
+    const allFood = FoodRepository.getAllFood();
+    //Filter the menu items by category
+    const filteredData = allFood.filter((item: any) => item.category === category);
+    return filteredData;
+
+ }
 }
 
 export default new FoodService();
