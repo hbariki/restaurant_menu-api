@@ -1,0 +1,170 @@
+[
+    {
+        "category": "APPETIZERS",
+        "items": [
+            {
+                "id": 1,
+                "name": "Iceberg Wedge Salad with House Cured Bacon",
+                "description": "tomato salsa gorgonzola",
+                "price": "7.50"
+            },
+            {
+                "id": 2,
+                "name": "Sautéed Shredded Brussels Sprouts",
+                "description": "bacon hazelnuts gorgonzola",
+                "price": 7.50
+            },
+            {
+                "id": 3,
+                "name": "Kale Salad",
+                "description": "parmesan crisp corn radish garlic-lemon vinaigrette",
+                "price": 7.50
+
+            },
+            {
+                "id": 4,
+                "name": "Pecan Crusted Utah Goat Cheese with Basil-Mint Pesto",
+                "description": "grilled tomato salsa crostini",
+                "price": 6.95
+
+            },
+            {
+                "id": 5,
+                "name": "Chicken and Cabbage Eggrolls",
+                "description": "hot & sour dipping sauce",
+                "price": 6.95
+            }
+            
+        ]
+    },
+    {
+        "category": "ENTREES",
+        "items": [
+          {
+            "id": 1,
+            "name": "Farfalle Pasta with Braised Pork in Tomato Cream",
+            "description": "capers butternut squash kale",
+            "price": 12.95
+          },
+          {
+            "id": 2,
+            "name": "Stout Braised Bratwusrt",
+            "description": "horseradish mashed potatoes roasted root veggies grilled onion",
+            "price": 13.95
+          },
+                   
+          {
+            "id": 3,
+            "name": "Salmon & Crispy Tofu in Yellow Curry Sauce ",
+            "description": "vegetable sauté golden raisin chutney",
+            "price": 15.95
+
+          },
+          {
+            "id":4,
+            "name":"Sesame Shrimp",
+            "description": "udon noodles ramen broth shiitake mushrooms bean sprouts scallions ",
+            "price": 13.95
+          }          
+        ]
+      },
+      {
+        "category": "SANDWICHES",
+        "description": "Served with choice of house pasta salad, green salad, or fresh fruit. For an additional $1.50, you can “upgrade” (by substituting) to ½ pasta salad of the day, French onion soup or soup of the day.",
+        "subcategory": [
+            {
+                "name": "COLD",
+                "description":"Choice of sourdough, whole wheat, or rye bread",
+                "sandwichType": [
+                    {
+                        "id": 1,
+                        "name":"half sandwich",
+                        "price": 7.95
+                    },
+                    {
+                        "id": 2,
+                        "name":"full sandwich",
+                        "price":9.25
+                    }
+                ],
+                "items": [
+                    {
+                        "id": 1,
+                        "name":"Turkey & Avocado ",
+                        "description": "with tomato"
+                    },
+                    {
+                        "id": 2,
+                        "name":"Pub Club",
+                        "description":"turkey, bacon. lettuce, tomato"
+                    },
+                    {
+                        "id": 3,
+                        "name":"Rare Roast Beef & Swiss",
+                        "description":"sweet-hot mustard, lettuce, red onion"
+                    },
+                    {
+                        "id":4,
+                        "name":"Veggie",
+                        "description":"pepper jack, avocado, sprout, tomato"
+                    }
+                ]
+            },
+            {
+                "subcategory": "HOT",
+                "description":"Choice of whole wheat or cheese & onion bun",
+                "items": [
+                    {
+                        "id": 1,
+                        "name":"Southwest Chicken Breast Grilled Onion, Poblano Pepper, Tomato, Lettuce, Jack Cheese ",
+                        "price":9.50
+                    },
+                    {
+                        "id": 2,
+                        "name":"Portobello Fresh Mozzarella Caramelized Onion, Roasted Pepper, Tomato, Field Greens, Basil Aioli",
+                        "price":9.50
+                    },
+                    {
+                        "id": 3,
+                        "name":"Chipotle BBQ Pork Sandwich with Pickled Jalapeño Slaw ",
+                        "price":9.50
+                    },
+                    {
+                        "id": 4,
+                        "name":"Bacon Burger* Swiss, Lettuce, Tomato ",
+                        "price":9.25
+                    },
+                    {
+                        "id": 5,
+                        "name":"Mexi Burger* Pepper Relish, Pepper Jack, Tomato, Lettuce, Guacamole ",
+                        "price":9.25
+                    },
+                    {
+                        "id": 6,
+                        "name":"Herb Marinated Top Sirloin* Crimini Mushrooms, Caramelized Onion, Gorgonzola, Basil Aioli, Served Open Faced on Fococcia ",
+                        "price":10.95
+
+                    },
+                    {
+                        "id": 7,
+                        "name":"Roast Beef with Ancho Au Jus Jack Cheese, Grilled Onions, Served on Crumb Bros. Baguette ",
+                        "price":9.75
+                    },
+                    {
+                        "id": 8,
+                        "name":"Blackened Catfish Creole Peppers & Onions, Fresh Herb Aioli, Served on house made Sourdough ",
+                        "price":9.75
+                    }                   
+                ]
+
+            }
+        ]
+        
+
+
+
+      }
+      
+ 
+
+]
