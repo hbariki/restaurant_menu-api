@@ -5,6 +5,6 @@ import FoodAPI from '../apis/food.api';
 const router = Router();
 
 // Define routes and map to controller methods
-router.get('/food/:category', FoodAPI.getFood);
+router.get('/food', FoodAPI.getFood);
 
 export default router;

@@ -3,7 +3,7 @@ import FoodService from '../services/food.service';
 
 class FoodAPI {
   getFood(req: Request, res: Response): any{
-    const { category } = req.params;
+    const { category } = req.query;
     if(!category) {
       // return the entire menu if no category is provided
       const foodData = FoodService.getAllFood();
