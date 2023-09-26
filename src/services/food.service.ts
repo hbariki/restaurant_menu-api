@@ -9,6 +9,7 @@ export class FoodService {
   }
 
   getAllFood() {
+    //returns the entire menu
     return this.foodRepository.getAllFood();
   }
 
