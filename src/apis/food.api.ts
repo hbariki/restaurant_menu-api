@@ -10,7 +10,7 @@ export class FoodApi {
   }
 
   getFood = async (req: Request, res: Response) => {
-    const { category } = req.query;
+    const { category }   = req.query
     if(!category) {
       // return the entire menu if no category is provided
       const foodData = this.foodService.getAllFood();

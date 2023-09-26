@@ -13,8 +13,7 @@ export class FoodService {
   }
 
  filterFoodByCategory(category: string) {
-    const allFood = this.foodRepository.getAllFood();
-    
+    const allFood = this.foodRepository.getAllFood();   
     // Filter the menu items by category
     const filteredData = allFood.filter((item: any) => item.category.toLowerCase() === category.toLowerCase());
     return filteredData;

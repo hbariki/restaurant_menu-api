@@ -6,8 +6,7 @@ export class FoodRepository {
     constructor(dataFilePath: string) {
       this.dataFilePath = dataFilePath
     }
-
-    // simply reading data from the file
+   // simply reading data from the file
     getAllFood() {
       const rawData = fs.readFileSync(this.dataFilePath, 'utf-8');
       return JSON.parse(rawData);
